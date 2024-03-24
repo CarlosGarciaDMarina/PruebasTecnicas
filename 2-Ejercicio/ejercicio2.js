@@ -10,7 +10,6 @@ simplificarRuta("/../");               // Salida: /
 simplificarRuta("/home//pruebas/");    // Salida: /home/pruebas
  
 */
-
 'use strict'
 
 var ruta = "/home/"
