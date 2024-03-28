@@ -17,6 +17,10 @@ La palabra es: _i___
 Te quedan 5 intentos
  
 */
+// Creamos la variable donde vamos a seleccionar la id del boton que esta en el HTML
+const lanzarJuego = document.querySelector("#lanzarJuego");
+// Le decimos que, cuando se haga click en el boton, se inicie el juego del ahorcado
+lanzarJuego.addEventListener("click", () => juegoDelAhorcado("pekoraeslamejor"));
 
 function juegoDelAhorcado(palabraSecreta) {  
     // Crear variable palabra oculta con guiones bajos
@@ -56,7 +60,7 @@ function juegoDelAhorcado(palabraSecreta) {
 
         // Mostrar cuantos intentos quedan
         console.log(`Te queda un total de ${intentos} intentos.`);
-
+        
     }// End While
 
     //Mostrar msj ed victoria o de derrota
@@ -66,10 +70,3 @@ function juegoDelAhorcado(palabraSecreta) {
         console.log(`Lo siento, has perdido la partida, otra vez será. La palabra era: ${palabraSecreta}`)
     }
 }
-
-const lanzarJuego = document.querySelector("#lanzarJuego");
-
-lanzarJuego.addEventListener("click", () => juegoDelAhorcado("pekoraeslamejor"));
-
-
-
