@@ -16,16 +16,13 @@ bisiestos(2023);
 2048
 2052
 */
-// Año que vamos a pasar a la funcion
-var año = 2023;
-
 // Esta función te muestra los años bisiestos que habrá en los próximos 30 años
-function añoBisiesto(año){
+function anioBisiesto(anio){
     // Creamos la variable para el año límite que tenemos que mostrar
-    var añoLimite = año + 30;
+    var anioLimite = año + 30;
 
     // Hacemos un for que recorra desde el año que le pasamos hasta el año límite
-    for (let i = año; i < añoLimite; i++) {
+    for (let i = anio; i < anioLimite; i++) {
         // Si el año es multiplo de 4 es que es un año bisiesto asique lo mostramos por pantalla
         if (i % 4 == 0) {
             // Imprimimos por pantalla
@@ -35,4 +32,4 @@ function añoBisiesto(año){
 }
 
 // Llamamos a la funcion
-añoBisiesto(2023);
+anioBisiesto(2023);
