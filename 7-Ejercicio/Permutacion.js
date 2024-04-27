@@ -43,10 +43,10 @@ function permutacion(array){
             permutados.push(numero_que_falta);
         }
     }
-    // Sacamos el ultimo elemento del array
+    // Sacamos el último elemento del array
     permutados.pop();
 
-    //Devolvemos el array con el numero faltante mas grande
+    //Devolvemos el array con el número faltante más grande
     return permutados[permutados.length - 1];
 }
 
