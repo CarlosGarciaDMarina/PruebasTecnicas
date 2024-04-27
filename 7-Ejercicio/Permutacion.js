@@ -52,17 +52,3 @@ function permutacion(array){
 
 console.log("Array completo : " + permutacion([1, 2, 3, 4, 5]));
 console.log("Array incompleto : " + permutacion([1, 3, 5]));
-
-
-
-
-/*
-if (permutacion(primer_array) >= 1) {
-    console.log("El número más grande que falta en la secuencia es : " +  permutacion(primer_array));
-    
-} else {
-    console.log("No falta ningún número en el array.");
-}
-            
-
-*/

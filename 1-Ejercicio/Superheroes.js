@@ -50,7 +50,6 @@ const infoSuperheroes = {
         equipo: 'Los vengadores'
     }
 };
-
 // Función para mostrar el nombre de un superheroe
 function mostrarInfo(nombre) {
     // Comprobamos si existe el superheroe
@@ -75,7 +74,6 @@ function mostrarInfo(nombre) {
 
     }
 }
-
 // Función para mostrar el nombre de todos los superheroes
 const mostrarInformacionSuperheroe = (nombres) => {
     // Primero recorremos los nombres que tengamos
@@ -86,11 +84,8 @@ const mostrarInformacionSuperheroe = (nombres) => {
 
     });
 }
-
 // Mostramos la primera función
 mostrarInfo("Capitán América");
 
 // Mostramos la segunda función
 mostrarInformacionSuperheroe(["Iron Man", "Hulk", "Spider-Man", "Super Man"])
-
-

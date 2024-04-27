@@ -15,7 +15,6 @@ simplificarRuta("/home//pruebas/");    // Salida: /home/pruebas
 var ruta = "/home/"
 
 function simplificarRuta(ruta){
-
     // Creamos una variable para almacenar las partes de una ruta
     let pila = [];
 
@@ -36,8 +35,6 @@ function simplificarRuta(ruta){
 
     // Unimos todos los elementos del array en una cadena de texto que sea valida para un sistema Unix
     return '/' + pila.join("/");
-
-
 }
 
 console.log(simplificarRuta("/home/"));             // Salida: /home

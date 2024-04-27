@@ -48,10 +48,8 @@ function enteroARomano(numero) {
             numero -= numerosRomanos[romano];
         }
     });
-
     // Devolvemos el resultado
     return resultado;
 }
-
 //Mostramos el resultado por pantalla
 console.log(enteroARomano(765));
